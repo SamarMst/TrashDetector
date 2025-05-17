@@ -8,11 +8,12 @@ function Footer() {
           <h1 className="text-lg font-bold">TrashClassifier</h1>
           <p className="text-sm">© {new Date().getFullYear()} All rights reserved.</p>
           </div>
-          <div className="flex space-x-6">
+         {/*  <div className="flex space-x-6">
           <a href="#" className="hover:underline">Home</a>
           <a href="#" className="hover:underline">About</a>
           <a href="#" className="hover:underline">Contact</a>
-        </div>
+        </div> */}
+        <div className="flex space-x-6">samar.mestiri.info@gmail.com</div>
       </div>
     </footer>
   )

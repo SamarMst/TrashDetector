@@ -49,8 +49,7 @@ const DragNdrop = ({
             <div>
               <p>Drag and drop your files here</p>
               <p>
-                Limit 15MB per file. Supported files: .PDF, .DOCX, .PPTX, .TXT,
-                .XLSX
+                Limit 15MB per file. Supported files: .PNG
               </p>
             </div>
           </div>
@@ -59,7 +58,7 @@ const DragNdrop = ({
             hidden
             id="browse"
             onChange={handleFileChange}
-            accept=".pdf,.docx,.pptx,.txt,.xlsx"
+            accept=".png"
             multiple
           />
           <label htmlFor="browse" className="browse-btn">
