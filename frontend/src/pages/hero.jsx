@@ -28,7 +28,7 @@ function Hero() {
           const isHighlighted = prediction.toLowerCase().includes(bin.label);
           return (
             <div
-              key={`${index}-${isHighlighted ? animationKey : ""}`} // force update on highlight
+              key={`${index}-${isHighlighted ? animationKey : ""}`} 
               className={`flex h-[170px] w-[170px] transition-transform duration-500 ease-in-out rounded-xl 
                 ${isHighlighted ? "animate-pulse scale-110 border-4 border-yellow-400 shadow-xl" : ""}`}
             >

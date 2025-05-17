@@ -46,8 +46,8 @@ function Upload({ onPredict }) {
           type="submit"
           className="flex items-center space-x-2 bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded"
         >
-          <img src="./images/search.png" alt="Search" className="h-6 w-6" />
-          <span>Search</span>
+          <img src="./images/search.png" alt="Classify" className="h-6 w-6" />
+          <span>Classify</span>
         </button>
       </form>
 
