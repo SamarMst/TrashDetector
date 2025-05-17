@@ -75,4 +75,4 @@ Architecture: MobileNetV2
 
 Input Size: 128x128x3
 
-Trained on: TrashNet dataset: https://www.kaggle.com/datasets/feyyazkefe/trashnet/data
+Trained on: TrashNet dataset: [https://www.kaggle.com/datasets/feyyazkefe/trashnet/data](https://www.kaggle.com/datasets/feyzazkefe/trashnet)
