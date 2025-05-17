@@ -60,7 +60,7 @@ npm install
 npm start
 ```
 ### 4. Flask API (Python)
-bash
+```bash
 Copy
 Edit
 cd ../model
@@ -68,3 +68,11 @@ python -m venv venv
 venv\Scripts\activate   # or source venv/bin/activate on Linux/Mac
 pip install -r requirements.txt
 python app.py
+```
+
+## 🧠 Model Info
+Architecture: MobileNetV2
+
+Input Size: 128x128x3
+
+Trained on: TrashNet dataset: https://www.kaggle.com/datasets/feyyazkefe/trashnet/data
