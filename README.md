@@ -42,3 +42,29 @@ A smart waste classification app that identifies trash types (plastic, metal, gl
 ```bash
 git clone https://github.com/SamarMst/Waste-Classifier.git
 cd Waste-Classifier
+```
+### 2. Frontend (React)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+### 3. Backend (Express)
+
+```bash
+Copy
+Edit
+cd ../backend
+npm install
+npm start
+```
+### 4. Flask API (Python)
+bash
+Copy
+Edit
+cd ../model
+python -m venv venv
+venv\Scripts\activate   # or source venv/bin/activate on Linux/Mac
+pip install -r requirements.txt
+python app.py
