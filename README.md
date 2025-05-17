@@ -25,6 +25,16 @@ A smart waste classification app that identifies trash types (plastic, metal, gl
 
 ---
 
+## 🧪 How it Works
+
+1. **User uploads an image** from the UI.
+2. Image is sent to **Express backend**, stored temporarily.
+3. Backend sends the image to the **Flask API**.
+4. Flask model predicts the class of waste.
+5. Response (class + confidence) is sent back to the frontend.
+
+---
+
 ## 🚀 Installation
 
 ### 1. Clone the repo
