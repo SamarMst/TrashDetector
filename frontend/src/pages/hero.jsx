@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Upload from "./Upload";
 
-function Hero1() {
+function Hero() {
   const [prediction, setPrediction] = useState("");
   const [animationKey, setAnimationKey] = useState(0); 
 
@@ -45,4 +45,4 @@ function Hero1() {
   );
 }
 
-export default Hero1;
+export default Hero;
