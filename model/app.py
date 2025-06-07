@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 CORS(app)
 
-# --- 1. Load Your Trained MobileNetV2 Model ---
+# Trained MobileNetV2 Model
 MODEL_PATH = r'C:\Users\lenovo\Documents\TrashDetector\model\static\waste.h5'
 model = None
 
@@ -23,7 +23,7 @@ def load_model_from_path():
 with app.app_context():
     load_model_from_path()
 
-# --- 2. Preprocessing Function ---
+# Preprocessing Function 
 TARGET_SIZE = (128, 128)
 # Adjust based on your model's input size
 def preprocess_image(image_path):
@@ -38,8 +38,8 @@ def preprocess_image(image_path):
         print(f"Error preprocessing image {image_path}: {e}")
         return None
 
-# --- 3. Prediction Endpoint ---
-CLASS_LABELS = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']  # Replace with your actual class labels
+# Prediction Endpoint 
+CLASS_LABELS = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
 @app.route('/predict', methods=['POST'])
 def predict_waste():
